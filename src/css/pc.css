@@ -128,3 +128,116 @@ footer {
     margin: .5rem .5rem;
 }
 
+.product {
+    width: 90%;
+    background-color: #fff;
+    border: rgba(102,103,120,0.3) 1px solid;
+    border-top:  #ff9e1b 2px solid;
+    color: #666;
+    margin: .5rem auto;
+    display: flex;
+}
+
+.product-left{
+    width: 30%;
+    background-color: rgba(102, 103, 110, 0.1);
+    /*这个垂直居中很吊*/
+    display: flex;
+    align-items: center;
+}
+
+.product-title{
+    margin: 0 auto;
+}
+
+.product-title p{
+    padding: 0 1rem;
+    text-align: center;
+    color: #ff9e1b;
+    font-size: 1.5rem;
+}
+
+.product-title em{
+    margin-top: 1rem;
+    display: block;
+    text-align: center;
+}
+
+.product-right{
+    width: 70%;
+}
+
+.product-content{
+    width: 100%;
+    display: flex;
+}
+
+.product-content .item{
+    /*要间隔的话,可以加上padding,这样没有副作用*/
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    /*这样居中也很吊*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 25%;
+}
+
+.product-content .item p{
+    font-size: .95rem;
+}
+
+.product-content .item span{
+    color: #ff9e1b;
+    font-size: 1.2rem;
+}
+
+
+.product-content .time span{
+    font-size: 1.5rem;
+}
+
+.product-content .button{
+    margin: 0 auto;
+    width: 4rem;
+    height: 3rem;
+    background: #ff9e1b;
+    line-height: 3rem;
+    color: #ffffff;
+    border-radius: .2rem;
+}
+
+.content-end{
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    background: #ffffff;
+    display: flex;
+}
+
+.content-end .item{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content-end .item li{
+    padding-top: .5rem;
+}
+
+.content-end .item li a{
+    color: #666;
+    font-size: .86rem;
+}
+
+.content-end .item li a:hover{
+    color: #0ae;
+}
+
+.li-title{
+    font-weight: bolder;
+    color: rgba(0,0,0,.6);
+}
