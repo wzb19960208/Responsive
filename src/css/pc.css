@@ -1,0 +1,130 @@
+/* 页面样式 */
+body {
+    background-color: #f7f7f7;
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+}
+
+.top{
+    position: relative;
+    width: 100%;
+    background-color: #565656;
+    color: #fff;
+    display: flex;
+    line-height: 1.5rem;
+}
+
+.top a {
+    color: #fff;
+}
+
+.top a:hover {
+    color: #0ae;
+}
+
+.top span{
+    margin-left: 1.5rem;
+}
+
+.top ul{
+    display: flex;
+    position: absolute;
+    right: 2rem;
+}
+
+.top li{
+    margin-right: 1rem;
+}
+
+.main{
+    width: 100%;
+    background-color: #f6f9f6;
+    display: flex;
+}
+
+.main ul{
+    display: flex;
+    position: absolute;
+    right: 2rem;
+    line-height: 2rem;
+}
+
+.main li{
+    margin-right: 1rem;
+}
+
+.main a{
+    color: #666;
+}
+
+.main a:hover {
+    color: #0ae;
+}
+
+.transaction{
+    width: 100%;
+    background-color: #7e7463;
+    height: 4rem;
+    display: flex;
+    color: #ffffff;
+}
+
+.trans-data{
+    line-height: 4rem;
+    margin-left: 1.5rem;
+}
+
+.trans-money{
+    color: #ff9e1b;
+}
+
+.ad{
+    width: 100%;
+}
+
+.ad-img{
+    width: 100%;
+}
+
+.feature{
+    width: 90%;
+    margin: 2rem auto;
+    display: flex;
+}
+
+.feature-item {
+    border: rgba(102,103,120,0.3) 1px solid;
+    color: #666;
+    background: #fff;
+    width: 33.33333%;
+    /*height: 4rem;*/
+    margin-right: .5rem;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.feature span{
+    color: #ff9e1b;
+    font-size: 1.5rem;
+    line-height: 4rem;
+    margin-left: 1rem;
+}
+
+.feature p{
+    margin: .5rem .5rem;
+}
+

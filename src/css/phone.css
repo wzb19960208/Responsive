@@ -1,31 +1,21 @@
-/* 页面样式 */
-body {
-    background-color: #f7f7f7;
-}
 
-a {
-    text-decoration: none;
+body {
+    min-width: 320px;
+    background-color: #f7f7f7;
 }
 
 header{
     width: 100%;
 }
 
-.container {
-    width: 100%;
-}
-
-footer {
-    width: 100%;
+a {
+    text-decoration: none;
 }
 
 .top{
-    position: relative;
     width: 100%;
     background-color: #565656;
     color: #fff;
-    display: flex;
-    line-height: 1.5rem;
 }
 
 .top a {
@@ -37,34 +27,47 @@ footer {
 }
 
 .top span{
-    margin-left: 1.5rem;
+    display: block;
+    line-height: 2rem;
+    text-align: center;
+
 }
 
 .top ul{
-    display: flex;
-    position: absolute;
-    right: 2rem;
+    text-align: center;
+    line-height: 2rem;
 }
 
 .top li{
-    margin-right: 1rem;
+    display: inline-block;
+}
+
+.top a:hover {
+    color: #0ae;
 }
 
 .main{
     width: 100%;
     background-color: #f6f9f6;
-    display: flex;
+}
+
+.main-img{
+    display: block;
+    width: 100%;
+}
+
+.main-img > img{
+    display: block;
+    margin: 0 auto;
 }
 
 .main ul{
-    display: flex;
-    position: absolute;
-    right: 2rem;
     line-height: 2rem;
+    text-align: center;
 }
 
 .main li{
-    margin-right: 1rem;
+    display: inline-block;
 }
 
 .main a{
@@ -78,14 +81,14 @@ footer {
 .transaction{
     width: 100%;
     background-color: #7e7463;
-    height: 4rem;
+    height: 3rem;
     display: flex;
     color: #ffffff;
 }
 
 .trans-data{
-    line-height: 4rem;
-    margin-left: 1.5rem;
+    line-height: 3rem;
+    margin: 0 auto;
 }
 
 .trans-money{
@@ -103,28 +106,23 @@ footer {
 .feature{
     width: 90%;
     margin: 2rem auto;
-    display: flex;
 }
 
 .feature-item {
+    border: rgba(102,103,120,0.3) 1px solid;
     color: #666;
     background: #fff;
-    width: 33.33333%;
-    height: 4rem;
-    margin-right: .5rem;
-    box-sizing: border-box;
-    display: flex;
+    width: 100%;
+    margin: .5rem auto;
 }
 
 .feature span{
+    display: block;
     color: #ff9e1b;
     font-size: 1.5rem;
-    line-height: 4rem;
-    margin-left: 1rem;
+    text-align: center;
 }
 
 .feature p{
-    margin-top: .5rem;
-    margin-left: 1rem;
+    text-align: center;
 }
-
